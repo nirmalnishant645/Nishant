@@ -51,6 +51,7 @@ section {
 
 .navbar-brand img {
   width: 72px;
+  border-radius: 50px;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
