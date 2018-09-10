@@ -193,3 +193,11 @@ ul.navbar-nav > li > a:focus {
 #coding-right i {
   cursor: pointer;
 }
+
+#coding-bottom {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25px;
+  background-color: #111;
+}
