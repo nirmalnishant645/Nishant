@@ -1,0 +1,28 @@
+      img{
+      width: 100%;
+      }
+      .card{
+      transition: none;
+      }
+      .card .card-content{
+      padding: 18px;
+      }
+      .card-title{
+        font-size: 16px;
+      margin-bottom: 0 !important;
+      font-weight: bold;
+      }
+      .bg-custom{
+      background-color: #FFFFFF;
+      }
+      .card-action{
+      text-align: center;
+      padding: 14px !important;
+      }
+      .btn{
+      padding: 0 1.1rem !important;
+      font-size: 1.5rem;
+      }
+      p, span, h6 {
+        color: #000000;
+      }

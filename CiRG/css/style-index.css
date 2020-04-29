@@ -1,10 +1,8 @@
-.home-section {
-    padding-top: 110px;
-    padding-bottom: 110px;
-	display:block;
-    position:relative;
-    z-index:120;
+#particles-js{
+  height: 12vh;
+  background-color: #FFFFFF;
 }
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -13,6 +11,7 @@ body {
   background: #fff;
   color: #000;
   font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -1195,30 +1194,13 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #fff;
-  padding: 0 0 30px 0;
+  margin: 50px 0 0 0;
   color: #870000;
   font-size: 14px;
 }
 
-#footer .footer-top {
-  background: #fff;
-  padding: 60px 0 30px 0;
-}
-
-#footer .footer-top .footer-info {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-info h3 {
-  font-size: 34px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #940202;
-  font-weight: 400;
-  letter-spacing: 3px;
+#footer .container {
+  margin-bottom: -150px;
 }
 
 #footer .footer-top .footer-info p {
