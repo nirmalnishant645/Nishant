@@ -431,17 +431,13 @@ h6 {
 .section-header h3 {
   font-size: 36px;
   color: #5C2C2C;
-  text-align: center;
   font-weight: 500;
   position: relative;
 }
 
 .section-header p {
-  text-align: center;
-  margin: auto;
   font-size: 15px;
-  color: #7A5858;
-  width: 50%;
+  color: #000000;
 }
 
 /* Section with background
