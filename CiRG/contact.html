@@ -28,6 +28,13 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <script type="text/javascript">
+function conf()
+{
+var con=confirm("We appreciate your interest. A member of our team will get in contact with you within 24 hours.");
+}
+</script>
+
 </head>
 
 <body>
@@ -78,7 +85,7 @@
     <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
     <div class="validation"></div>
   </div>
-  <div class="text-center"><button type="submit" title="Submit">Submit</button></div>
+  <div class="text-center"><button type="submit" title="Submit" onClick="conf()">Submit</button></div>
 </form>
 
     </div>
@@ -88,7 +95,7 @@
   <!--==========================
     Footer
   ============================-->
-  <footer id="footer">
+  <footer style="margin-top: 60px;" id="footer">
     <div class="container">
       <div class="copyright">
         <div class="social-links">

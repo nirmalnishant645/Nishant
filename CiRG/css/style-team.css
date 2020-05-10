@@ -23,6 +23,8 @@
       padding: 0 1.1rem !important;
       font-size: 1.5rem;
       }
-      p, span, h6 {
+      p, h6 {
         color: #000000;
+        font-size: 14px;
+        font-weight: bold;
       }

@@ -28,6 +28,13 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <script type="text/javascript">
+function conf()
+{
+var con=confirm("We appreciate your interest. A member of our team will get in contact with you within 24 hours.");
+}
+</script>
+
 </head>
 
 <body>
@@ -87,18 +94,18 @@
     <textarea class="form-control" name="short_bio" rows="5" data-rule="required" data-msg="Please write something about yourself" placeholder="Short Bio"></textarea>
     <div class="validation"></div>
   </div>
-  <div class="text-center"><button type="submit" title="Submit">Submit</button></div>
+  <div class="text-center"><button type="submit" title="Submit" onClick="conf()">Submit</button></div>
 </form>
 
     </div>
 </section><!-- #about -->
-
 
   <!--==========================
     Footer
   ============================-->
   <footer id="footer">
     <div class="container">
+      <p><strong>* As of now we offer only contractual position to the consultants/ scientists on the available projects.</strong><p><br><br>
       <div class="copyright">
         <div class="social-links">
           <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
