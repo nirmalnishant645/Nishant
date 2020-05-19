@@ -1319,6 +1319,11 @@ h6 {
   padding-right: 10px;
 }
 
+video {
+  width: 90%;
+  height: 90%;
+}
+
 @media (max-width: 991px) {
   #header {
     height: 60px;

@@ -450,7 +450,7 @@ h6 {
 #services {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-	margin-top: -550px;
+	margin-top: -600px;
 }
 
 #services .box {
@@ -1172,6 +1172,14 @@ h6 {
   color: black;
 }
 
+.right {
+	padding-left: 10px;
+}
+
+.face img {
+	height: 100%;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1212,6 +1220,48 @@ h6 {
   #why-us .card {
     margin: 0;
   }
+
+	.right {
+		padding-left: 0px;
+	}
+
+	#f1_container {
+		width: 50%;
+		height: 50%;
+	}
+
+	#f1_card {
+		width: 50%;
+		height: 50%;
+	}
+
+	.back{
+		width: 50%;
+		height: 50%;
+	}
+
+	.face img {
+	  height: 100%;
+	}
+
+	.back h1 {
+	  font-size: 18px;
+	  margin: 0;
+	  padding: 0;
+	}
+
+	.back p {
+	  font-size: 12px;
+	  padding: 0;
+	  margin: 0;
+	}
+
+
+	#services {
+		margin-top: -800px;;
+	}
+
+
 }
 
 @media (max-width: 768px) {
@@ -1260,8 +1310,8 @@ h6 {
 #f1_container {
   position: relative;
   margin: 10px auto;
-  width: 450px;
-  height: 300px;
+  width: 570px;
+  height: 380px;
   z-index: 1;
 }
 #f1_container {
@@ -1306,4 +1356,8 @@ h6 {
   padding: 0;
   margin: 0 0 30px 0;
   text-align: justify;
+}
+
+.row {
+	padding-top: 30px;
 }
