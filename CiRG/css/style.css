@@ -197,7 +197,7 @@ h6 {
 #intro .intro-info h2 {
   color: #FF1100;
   margin-bottom: 40px;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
 }
 
@@ -1349,10 +1349,15 @@ h6 {
   }
 
   #intro .intro-info {
-    width: 80%;
+    width: 100%;
     float: none;
     margin: auto;
     text-align: center;
+  }
+
+  #intro .intro-info h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
   }
 
   #why-us .card {

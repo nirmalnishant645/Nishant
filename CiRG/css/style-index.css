@@ -11,7 +11,6 @@ body {
   background: #fff;
   color: #000;
   font-family: 'Source Sans Pro', sans-serif;
-  overflow-x: hidden;
 }
 
 a {
@@ -196,7 +195,7 @@ h6 {
 #intro .intro-info h2 {
   color: #FF1100;
   margin-bottom: 40px;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
 }
 
@@ -1299,14 +1298,25 @@ h6 {
   color: black;
 }
 
+#nCanvasRender {
+  width: 100%;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
 @media (min-width: 992px) {
+
+
   #testimonials .testimonial-item p {
     width: 80%;
   }
+}
+
+#about {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 @media (max-width: 991px) {
@@ -1315,26 +1325,13 @@ h6 {
     padding: 10px 0;
   }
 
+  #intro .intro-info h2 {
+    font-size: 26px;
+  }
+
   #header .logo h1 {
     font-size: 28px;
     padding: 8px 0;
-  }
-
-  #intro {
-    padding: 140px 0 60px 0;
-  }
-
-  #intro .intro-img {
-    width: 80%;
-    float: none;
-    margin: 0 auto 25px auto;
-  }
-
-  #intro .intro-info {
-    width: 80%;
-    float: none;
-    margin: auto;
-    text-align: center;
   }
 
   #why-us .card {
@@ -1414,14 +1411,6 @@ h6 {
 }
 
 @media (max-width: 767px) {
-  #intro .intro-info {
-    width: 100%;
-  }
-
-  #intro .intro-info h2 {
-    font-size: 34px;
-    margin-bottom: 30px;
-  }
 
   .section-header p {
     width: 100%;
@@ -1440,11 +1429,5 @@ h6 {
   #testimonials .testimonial-item h4,
   #testimonials .testimonial-item p {
     margin-left: 0;
-  }
-}
-
-@media (max-width: 574px) {
-  #intro {
-    padding: 100px 0 20px 0;
   }
 }
